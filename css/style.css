@@ -1,0 +1,241 @@
+/* =========== RESET ============ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* =========== FONTS =============== */
+@font-face {
+    font-family: roboto-Faceirinha;
+    src: url(../fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: saira-Faceirinha;
+    src: url(../fonts/Saira-Regular.ttf);
+}
+
+/* =============== CONFIG PAGINA ============== */
+body {
+    background-image: url(../img/bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* ================ HEADER ====================*/
+header img {
+    height: 82px;
+    width: 265px;
+    margin: auto;
+    display: flex;
+    margin-top: 19px;
+    margin-bottom: 15px;
+}
+/* ============ MAIN =========== */
+#text-1-main {
+    color: white;
+    font-size: 1.5rem;
+    font-family: saira-Faceirinha;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+/* -================ */
+.input-main-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin: 0;
+}
+
+/* button site ===============*/
+
+.button-social-site a{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 34px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.text-site-social {
+    margin-left: 12px;
+    color: black;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    font-family: saira-Faceirinha;
+}
+
+.text-site-social:hover {
+    color: rgb(0,188,239);
+}
+
+.input-main-1 a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-style: none;
+    font-family: sairaRegular-faceirinha;
+}
+
+.button-social-site a{
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  } 
+  
+  .button-social-site a:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+  }
+
+/* button zap ===============*/
+
+.button-social-zap a{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 34px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.text-zap-social {
+    margin-left: 12px;
+    color: black;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    font-family: saira-Faceirinha;
+}
+
+.text-zap-social:hover {
+    color: rgb(0,188,239);
+}
+
+.input-main-1 a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-style: none;
+    font-family: sairaRegular-faceirinha;
+}
+
+.button-social-zap a{
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  } 
+  
+  .button-social-zap a:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+  }
+
+/* button support ===============*/
+
+.button-social-support a{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 34px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.text-support-social {
+    margin-left: 12px;
+    color: black;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    font-family: saira-Faceirinha;
+}
+
+.text-support-social:hover {
+    color: rgb(0,188,239);
+}
+
+.input-main-1 a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-style: none;
+    font-family: sairaRegular-faceirinha;
+}
+
+.button-social-support a{
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  } 
+  
+  .button-social-support a:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+  }
+/* ============ config footer ============ */
+
+footer h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.icons-social img {
+    width: 4rem;
+    height: 4rem;
+    align-items: center;
+    display: block;
+    justify-content: space-between;
+    margin: 0 0.5rem;
+    margin-bottom: 25px;
+}
+
+.container-footer-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer-2 a img:hover{
+    border-radius: 35px;
+    box-shadow: 5px 5px 3px -3px white;
+} 
+
+/* ============ finaly ================ */
+
+@media (max-width: 920px)
+{
+  .input-main-1 {
+      margin: 0;
+  }
+}
